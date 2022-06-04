@@ -113,7 +113,7 @@ public class Metodos {
     public static void eliminar() {
         try {
 
-            String url = "/Users/laura/BBDD/prueba_bbdd.db"; //Ruta donde se encuentra nuestra base
+            String url = "BBDD/prueba_bbdd.db"; //Ruta donde se encuentra nuestra base
 
             //Objeto tipo Connection. Clase DriverManager y método.
             Connection connect = DriverManager.getConnection("jdbc:sqlite:" + url, "root", "");
